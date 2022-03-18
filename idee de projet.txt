@@ -32,8 +32,20 @@ bouton retour a l accueil
 titre de la marque
 photo de la marque
 descriptif de la marque
-nombre de vote
+nombre de votes
 bouton voter pour cette marque
 affichage des boissons de cette marque
 bouton decouvrir d autres marques
 bouton retour a l accueil
+
+Boisson
+titre_boisson
+lien_photo_boisson
+description_boisson
+nombre_votes_boisson
+
+Marque
+titre_marque
+lien_photo_marque
+description_marque
+nombre_vote_marque

@@ -6,7 +6,7 @@ from .models import Marque, Boisson
 # Create your views here.
 def index(request):
     listeBoisson = Boisson.objects.order_by('-nombre_votes_boisson')
-    template = loader.get_template('sondage/index.html')
+    template = loader.get_template('election/index.html')
     context = {'liste_boisson': listeBoisson}
     return HttpResponse(template.render(context, request))
 
